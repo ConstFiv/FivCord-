@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.root{
+    height: 768px;  /*768-70*/
+    width: 1366px;
+    display: flex;
+    background-color: rgb(38,40,44);
+  
+}
+
+.rootLeftArea{
+    height: 100%;
+    width: 72px;
+    background-color: rgb(72,75,82);
+    list-style: none;
+    display: block;
+}
+
+.rootMainArea{
+    flex: 1;
+
+    display: flex;
+}
+
+.rootMainArea .rootListLeft{
+    width: 280px;
+    height: 100%;
+    background-color: rgb(38,40,44);
+}
+
+.rootMainArea .rootContent{
+    
+    flex: 1;
+    margin:9px 15px;
+    margin-left: 0;
+    border-radius: 10px;
+    overflow: hidden;
+   
+    
+}
+
+.rootMainArea .rootContent .contentTop{
+    height: 56px;
+    width: 100%;
+    background-color: rgb(47,50,55);
+    border-bottom: 1px solid rgb(57,59,64);
+}
+
+.rootMainArea .rootContent .contentMiddle{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+
+}
+
+.rootMainArea .rootContent .contentMiddle .contentMiddleChatPlace{
+    flex: 1;
+    background-color: rgb(47,50,55);
+}
+
+.rootMainArea .rootContent .contentMiddle .contentMiddleRightFriendsList{
+    width: 239px;
+    height: 100%;
+    border-left: 1px solid rgb(57,59,64);
+    background-color: rgb(47,50,55);
+}
+
+
+
+

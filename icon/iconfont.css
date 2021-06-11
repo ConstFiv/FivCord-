@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2606854 */
+  src: url('iconfont.woff2?t=1623395282021') format('woff2'),
+       url('iconfont.woff?t=1623395282021') format('woff'),
+       url('iconfont.ttf?t=1623395282021') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mao:before {
+  content: "\e60a";
+}
+
+.icon-chongwutubiao02:before {
+  content: "\e60b";
+}
+
+.icon-caidan:before {
+  content: "\e601";
+}
+
+.icon-dongwutubiao-shangse-huli:before {
+  content: "\e602";
+}
+
+.icon-dongwutubiao-shangse-ma:before {
+  content: "\e603";
+}
+
+.icon-dongwutubiao-shangse-laohu:before {
+  content: "\e604";
+}
+
+.icon-dongwutubiao-shangse-laoshu:before {
+  content: "\e605";
+}
+
+.icon-dongwutubiao-shangse-daxiang:before {
+  content: "\e606";
+}
+
+.icon-dongwutubiao-shangse-changjinglu:before {
+  content: "\e607";
+}
+
+.icon-dongwutubiao-shangse-kaola:before {
+  content: "\e608";
+}
+
+.icon-dongwutubiao-shangse-shizi:before {
+  content: "\e609";
+}
+
+.icon-dongwu:before {
+  content: "\e679";
+}
+
+.icon-xiaojidongwuniao:before {
+  content: "\e627";
+}
+
+.icon-shenghuafangju:before {
+  content: "\e6ab";
+}
+
+.icon-chongwutubiao02{
+  font-size: 35px;
+}
