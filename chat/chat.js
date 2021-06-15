@@ -25,10 +25,14 @@ rootLeftArea.onclick =(e)=>{
 // 左侧分组特效制作###############################################################
 // 获取数据
 let groupTitle = document.querySelectorAll(".groupTitle")[0];
-
+let groupList = document.querySelectorAll(".groupList")[0]
 
 
 // 点击上方抬头
 groupTitle.onclick = ()=>{
     alert("该功能也在开发中，请耐心等待更新...")
+}
+
+groupList.onclick = ()=>{
+    alert("目前版本只支持文字聊天频道！")
 }
