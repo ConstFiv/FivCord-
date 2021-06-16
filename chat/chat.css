@@ -2,22 +2,28 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    font-size: 6.25%;
+}
+
+
 body{
     overflow-x: hidden;
     overflow-y: hidden;
+    background-color: rgb(38,40,44);
 }
 
-.root{
-    height: 768px;  /*768-70*/
-    width: 1366px;
+#root{
+    margin: auto;
     display: flex;
     background-color: rgb(38,40,44);
   
 }
 
 .rootLeftArea{
-    height: 100%;
-    width: 72px;
+    height: 120%;
+    width: 72rem;
     background-color: rgb(72,75,82);
     list-style: none;
     display: block;
@@ -30,7 +36,7 @@ body{
 }
 
 .rootMainArea .rootListLeft{
-    width: 280px;
+    width: 280rem;
     height: 100%;
     background-color: rgb(38,40,44);
     z-index: 10;
@@ -39,19 +45,19 @@ body{
 .rootMainArea .rootContent{
     
     flex: 1;
-    margin:9px 15px;
+    margin:9rem 15rem;
     margin-left: 0;
-    border-radius: 10px;
+    border-radius: 10rem;
     overflow: hidden;
    
     
 }
 
 .rootMainArea .rootContent .contentTop{
-    height: 56px;
+    height: 56rem;
     width: 100%;
     background-color: rgb(47,50,55);
-    border-bottom: 1px solid rgb(57,59,64);
+    border-bottom: 1rem solid rgb(57,59,64);
 }
 
 .rootMainArea .rootContent .contentMiddle{
@@ -65,17 +71,21 @@ body{
 .rootMainArea .rootContent .contentMiddle .contentMiddleChatPlace{
     flex: 1;
     background-color: rgb(47,50,55);
+    position: relative;
 }
 
 .rootMainArea .rootContent .contentMiddle .contentMiddleRightFriendsList{
-    width: 239px;
+    width: 239rem;
     height: 100%;
-    border-left: 1px solid rgb(57,59,64);
+    border-left: 1rem solid rgb(57,59,64);
     background-color: rgb(47,50,55);
 }
 
 
 
 .icon-chongwutubiao02{
-    font-size: 38px;
+    font-size: 38rem;
 }
+
+
+
