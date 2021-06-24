@@ -1,0 +1,76 @@
+/* 左侧边栏######################################################## --> */
+
+.rootLeftArea .logobutton{
+    width: 60rem;
+    height: 60rem;
+    background-color: rgb(151,152,158,0);
+    margin:15rem auto 0;
+    border-radius: 50%;
+    display: flex;  /*方便后面居中*/
+    cursor: pointer;
+   
+
+}
+
+
+
+.rootLeftArea .logobuttonInside{
+
+    width: 48rem;
+    height: 48rem;
+    background-color: rgb(94,97,103);
+    border-radius: 50%;
+    margin: auto;
+        /* 额外添加 */
+        color: #fff;
+        font-size: 15rem;
+        text-align: center;
+        line-height: 48rem;
+    transition: all 0.4s ease 0s;
+      
+    }
+
+/* 制作旋转特效和变色效果 */
+.rootLeftArea .logobutton:hover{
+    background-color: rgb(151,152,158,1);
+
+}
+
+.rootLeftArea .logobutton:hover .logobuttonInside{
+    background-color: darkorange; 
+    transform:rotate(360deg);
+    transition: 0.4s linear;
+
+}
+.rootLeftArea .logoUnderline{
+    width: 25rem;
+    height: 0;
+    border: 1rem solid rgb(113,115,122);
+    margin: 15rem auto 0;
+}
+
+/* 临时使用 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.rootLeftArea #guguGroupFather{
+    background-color: rgb(38,40,44,1);
+    position: relative;
+    z-index: 10;
+}
+.rootLeftArea #guguGroupFather::after{
+    content: "";
+    display: block;
+    height: 60rem;
+    width: 180rem;
+    border-radius: 50%;
+    background-color: rgb(38,40,44,1);
+    position: absolute;
+    left: 5rem;
+    top: 0;
+    z-index: 0;
+    
+    
+}
+.rootLeftArea .logobutton .guguGroup{
+    background-color: darkorange; 
+    z-index: 20;
+}
