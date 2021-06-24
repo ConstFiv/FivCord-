@@ -1,0 +1,55 @@
+.contentMiddleChatPlaceInput .emoticonPlace{
+    width: 400rem;
+    height: 300rem;
+    position: absolute;
+    background-color: red;
+    top: -290rem;
+    left: 330rem;
+    border-radius: 10px;
+    display: none;
+}
+
+.contentMiddleChatPlaceInput .emoticonPlaceTop{
+    height: 29rem;
+    line-height: 29rem;
+    font-size: 14rem;
+    color: #fff;
+    text-indent: 15rem;
+    border-bottom: 1rem solid rgb(113,115,122);
+}
+
+.contentMiddleChatPlaceInput .emoticonPlaceContent{
+    height: 270rem;
+    width: 400rem;
+    /* margin: 15rem 30rem 15rem 30rem; */
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.contentMiddleChatPlaceInput .emoticonPlaceContent .emoticonPlaceUl{
+    height: 290rem;
+    width: 420rem;
+    overflow: scroll;
+
+}
+
+.emoticonPlaceUl li{
+    float: left;
+    width: 66rem;
+    height: 60rem;
+   
+  
+
+}
+
+.iconForEmoticon{
+    width: 40rem;
+    height: 40rem;
+    margin: 10rem 3rem 10rem 12rem;
+    fill: currentColor;
+    overflow: hidden;
+    cursor: pointer;
+}
+.emoticonPlaceUl li:hover{
+    background-color: red;
+}

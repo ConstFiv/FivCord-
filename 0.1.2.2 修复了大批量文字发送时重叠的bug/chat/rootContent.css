@@ -1,0 +1,296 @@
+.rootContent .contentTop .contentTopLeft{
+    font-size: 16rem;
+    line-height: 49rem;
+    text-indent: 10rem;
+    display: block;
+    float: left;
+    color: #e6eaf0;
+    font-weight: 900;
+  
+    font-family: PingFang SC,Microsoft YaHei New,微软雅黑,Microsoft Yahei,Microsoft JhengHei,宋体,SimSun,Helvetica Neue,Helvetica,Arial,"sans-serif";
+    float: left;
+}
+.rootContent .contentTop .contentTopLeft span{
+    color:  rgb(95,98,102);
+    margin: 0 10rem 30rem 0;
+}
+
+
+.rootContent .contentTop .contentTopRight li{
+    display: block;
+    float: right;
+    background-color: rgb(61,63,68);
+    color: rgb(179,183,188);
+    width: 36rem;
+    height: 36rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin-right: 20rem;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+
+.rootContent .contentTop .contentTopRight li span{
+    font-size: 20rem;
+    line-height: 36rem;
+}
+
+.rootContent .contentTop .contentTopRight li:hover {
+    background-color: darkorange;
+    color: rgb(255,255,255);
+}
+
+/* 输入框 */
+.rootContent .contentTop .contentTopRight input{
+    float: right;
+    height: 32rem;
+    margin-top: 10rem;
+    margin-right: 20rem;
+    background-color: rgb(61,63,68);
+    border-radius: 10rem;
+    box-shadow: none;
+    outline: none;
+    resize: none; 
+    border: none; 
+    color: #fff;
+    width: 165rem;
+    font-size: 14rem;
+
+}
+
+.rootContent .contentTop .contentTopRight input:focus{
+    display: block;
+    width: 250rem;
+    border: 1rem solid darkorange;
+    text-indent: 5rem;    /*光标留白5rem*/
+   
+}
+
+/* 放大镜图标 */
+.rootContent .contentTop .contentTopRight .contentTopRightInput{
+    display: block;
+    color: rgb(179,183,188);
+    cursor: pointer;
+    display: block;
+    float: right;
+    width: 36rem;
+    height: 36rem;
+    text-align: center;
+    margin-top: 20rem;
+    margin-right: 20rem;
+    margin-left: -55rem;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+
+
+/* 聊天区 #######################*/
+.contentMiddle .contentMiddleChatPlace .contentMiddleChatPlaceInput{
+    position: absolute;
+    left: 0;
+    top: 78%;
+    height: 80rem;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.contentMiddle .contentMiddleChatPlace .contentMiddleChatPlaceInput input{
+    box-shadow: none;
+    outline: none;
+    resize: none; 
+    border: none; 
+    color: #fff;
+    font-size: 16rem;
+    height: 50rem;
+    width: 93%;
+    margin: 15rem 0 0 25rem;
+    background-color: rgb(57,60,65);
+    border-radius: 10rem;
+    text-indent: 60rem;
+    overflow: hidden;
+}
+
+/* 添加文件按钮 */
+.contentMiddle .contentMiddleChatPlace .contentMiddleChatPlaceInput .leftBtn{
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    left: 25rem;
+    top: 15rem;
+    
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    color: rgb(186,189,194);
+    cursor: pointer;
+    text-align: center;
+    line-height: 50rem;
+}
+
+.contentMiddle .contentMiddleChatPlace .contentMiddleChatPlaceInput .leftBtn span{
+    font-size: 23rem;
+    
+}
+
+/* 表情包按钮 */
+.contentMiddle .contentMiddleChatPlace .contentMiddleChatPlaceInput .rightBtn{
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    right: 25rem;
+    top: 15rem;
+    
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    color: rgb(186,189,194);
+    cursor: pointer;
+    text-align: center;
+    line-height: 50rem;
+}
+
+.contentMiddle .contentMiddleChatPlace .contentMiddleChatPlaceInput .rightBtn span{
+    font-size: 23rem;
+    
+}
+
+.contentMiddle .contentMiddleChatPlace .contentMiddleChatPlaceInput .rightBtn span:hover{
+    color: darkorange;
+}
+
+
+/* 右侧好友列表 */
+.contentMiddleRightFriendsList .listUl{
+    width: 259rem;
+    height: 100%;
+    overflow: scroll;
+   
+}
+
+
+.contentMiddleRightFriendsList .listUl .friendsOnline{
+    display: block;
+    height: 45rem;
+    font-size: 14rem;
+    line-height: 45rem;
+    color: rgb(230,234,240);
+    text-indent: 20rem;
+
+}
+
+
+.contentMiddleRightFriendsList .listUl li{
+    height: 45rem;
+    line-height: 45rem;
+    color: rgb(230,234,240);
+    margin-bottom: 20rem;
+}
+
+.contentMiddleRightFriendsList .listUl li .imgs{
+    height: 45rem;
+    width: 45rem;
+    background-color: darkorange;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+  
+    text-align: center;
+    line-height: 45rem;
+   
+}
+.contentMiddleRightFriendsList .listUl li .imgs span{
+    text-align: center;
+    line-height: 45rem;
+    font-size: 20rem;
+}
+
+
+.contentMiddleRightFriendsList .listUl li .friendsName{
+    line-height: 45rem;
+    text-indent: 10rem;
+    height: 45rem;
+    float: left;
+    font-size: 14rem;
+   
+}
+
+
+
+/*############# 聊天文字区域css####################################### */
+.contentMiddle .contentMiddleChatPlace .ulOuteSide{
+    height: 500rem;
+    width: 100%;
+    overflow: hidden;
+}
+.contentMiddle .contentMiddleChatPlace #ChatPlaceUl{
+    list-style: none;
+    height: 520rem;
+    width: 105%;
+    overflow: scroll;
+    padding-bottom: 20rem;
+}
+
+.contentMiddle .contentMiddleChatPlace #ChatPlaceUl li{
+
+    display: block;
+    width: 650rem;
+    margin: 20rem 0 0 45rem;
+    /* 防止父元素塌陷 */
+    overflow: hidden;
+    
+}
+#ChatPlaceUl li .pic{
+    height: 40rem;
+    width: 40rem;
+    float: left;
+    margin-left: 10rem;
+    border-radius: 50%;
+ 
+    text-align: center;
+    line-height: 40rem;
+    color: #fff;
+}
+
+#ChatPlaceUl li .dataElse{
+    width: 580rem;
+    float: left;
+
+    
+}
+
+#ChatPlaceUl li .dataElse .dataElseUp{
+    width: 570rem;
+    margin-left: 10rem;
+    height: 20rem;
+
+}
+
+#ChatPlaceUl li .dataElse .dataElseUp .name{
+    
+    font-size: 14rem;
+    color: white;
+    float: left;
+    line-height: 20rem;
+    font-family: PingFang SC,Microsoft YaHei New,微软雅黑,Microsoft Yahei,Microsoft JhengHei,宋体,SimSun,Helvetica Neue,Helvetica,Arial,"sans-serif";
+    font-weight: bold;
+}
+#ChatPlaceUl li .dataElse .dataElseUp .time{
+    
+    font-size: 12rem;
+    color:rgb(104,106,111);
+    float: left;
+    line-height: 20rem;
+    text-indent: 5rem;
+}
+
+#ChatPlaceUl li .dataElse .word{
+    
+    width: 570rem;
+    margin-left: 10rem;
+    font-size: 16rem;
+    color:#fff;
+    line-height: 20rem;
+  
+    font-family: PingFang SC,Microsoft YaHei New,微软雅黑,Microsoft Yahei,Microsoft JhengHei,宋体,SimSun,Helvetica Neue,Helvetica,Arial,"sans-serif";
+}

@@ -1,0 +1,170 @@
+{
+  "id": "2606854",
+  "name": "废物聊天室",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "842937",
+      "name": "表情",
+      "font_class": "biaoqing",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "11641878",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "9626830",
+      "name": "帮助",
+      "font_class": "bangzhu",
+      "unicode": "e865",
+      "unicode_decimal": 59493
+    },
+    {
+      "icon_id": "7159318",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "15685366",
+      "name": "群组",
+      "font_class": "qunzu",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "16588061",
+      "name": "铃铛",
+      "font_class": "lingdang",
+      "unicode": "e704",
+      "unicode_decimal": 59140
+    },
+    {
+      "icon_id": "19701146",
+      "name": "图钉",
+      "font_class": "pushpin-fill",
+      "unicode": "eba2",
+      "unicode_decimal": 60322
+    },
+    {
+      "icon_id": "10109104",
+      "name": "喇叭",
+      "font_class": "laba",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "18176380",
+      "name": "井号",
+      "font_class": "number-sign-full",
+      "unicode": "ea7b",
+      "unicode_decimal": 60027
+    },
+    {
+      "icon_id": "1595107",
+      "name": "猫",
+      "font_class": "mao",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "17425313",
+      "name": "猫咪",
+      "font_class": "chongwutubiao02",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1611119",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3901194",
+      "name": "动物图标-上色-狐狸",
+      "font_class": "dongwutubiao-shangse-huli",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3901196",
+      "name": "动物图标-上色-马",
+      "font_class": "dongwutubiao-shangse-ma",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "3901197",
+      "name": "动物图标-上色-老虎",
+      "font_class": "dongwutubiao-shangse-laohu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3901203",
+      "name": "动物图标-上色-老鼠",
+      "font_class": "dongwutubiao-shangse-laoshu",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "3901207",
+      "name": "动物图标-上色-大象",
+      "font_class": "dongwutubiao-shangse-daxiang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "3901208",
+      "name": "动物图标-上色-长颈鹿",
+      "font_class": "dongwutubiao-shangse-changjinglu",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "3901209",
+      "name": "动物图标-上色-考拉",
+      "font_class": "dongwutubiao-shangse-kaola",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "3901215",
+      "name": "动物图标-上色-狮子",
+      "font_class": "dongwutubiao-shangse-shizi",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "5482901",
+      "name": "动物",
+      "font_class": "dongwu",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "19463531",
+      "name": "小鸡 动物 鸟",
+      "font_class": "xiaojidongwuniao",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "15433489",
+      "name": "生化防具",
+      "font_class": "shenghuafangju",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2624083 */
+  src: url('iconfont.woff2?t=1624276018162') format('woff2'),
+       url('iconfont.woff?t=1624276018162') format('woff'),
+       url('iconfont.ttf?t=1624276018162') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-happy2:before {
+  content: "\e736";
+}
+
+.icon-alien:before {
+  content: "\e737";
+}
+
+.icon-laughing:before {
+  content: "\e738";
+}
+
+.icon-happy:before {
+  content: "\e739";
+}
+
+.icon-crying2:before {
+  content: "\e73a";
+}
+
+.icon-child:before {
+  content: "\e73b";
+}
+
+.icon-confused:before {
+  content: "\e73c";
+}
+
+.icon-cool:before {
+  content: "\e73d";
+}
+
+.icon-ninja:before {
+  content: "\e73e";
+}
+
+.icon-puzzle:before {
+  content: "\e73f";
+}
+
+.icon-romantic:before {
+  content: "\e740";
+}
+
+.icon-dull:before {
+  content: "\e741";
+}
+
+.icon-drunk:before {
+  content: "\e742";
+}
+
+.icon-shy:before {
+  content: "\e743";
+}
+
+.icon-wondering:before {
+  content: "\e744";
+}
+
+.icon-sleepy:before {
+  content: "\e745";
+}
+
+.icon-thief:before {
+  content: "\e746";
+}
+
+.icon-sweating:before {
+  content: "\e747";
+}
+
+.icon-surprise:before {
+  content: "\e748";
+}
+
+.icon-grinning:before {
+  content: "\e749";
+}
+
+.icon-clown:before {
+  content: "\e74a";
+}
+
+.icon-muted:before {
+  content: "\e74b";
+}
+
+.icon-angel:before {
+  content: "\e74c";
+}
+
+.icon-amazed:before {
+  content: "\e74d";
+}
+
+.icon-cheeky:before {
+  content: "\e74e";
+}
+
+.icon-dead:before {
+  content: "\e74f";
+}
+
+.icon-devil:before {
+  content: "\e750";
+}
+
+.icon-angry:before {
+  content: "\e751";
+}
+
+.icon-baffled:before {
+  content: "\e752";
+}
+
+.icon-nerd2:before {
+  content: "\e753";
+}
+
+.icon-hockey:before {
+  content: "\e754";
+}
+
+.icon-famous:before {
+  content: "\e755";
+}
+
+.icon-nerd:before {
+  content: "\e756";
+}
+
+.icon-in-love:before {
+  content: "\e757";
+}
+
+.icon-wink:before {
+  content: "\e758";
+}
+
+.icon-kiss:before {
+  content: "\e759";
+}
+
+.icon-pukin:before {
+  content: "\e75a";
+}
+
+.icon-crying:before {
+  content: "\e75b";
+}
+
+.icon-greed:before {
+  content: "\e75c";
+}
+
+.icon-sad:before {
+  content: "\e75d";
+}
+

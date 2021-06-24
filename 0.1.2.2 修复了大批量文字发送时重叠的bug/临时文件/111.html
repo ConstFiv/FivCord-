@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>废物聊天室1.0</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .clearFix:after{
+            content: "";
+            display: block;
+            clear: both;
+            height: 0;
+
+        }
+
+
+        .box{         
+            background-color: #1e1e1e;
+            width: 1366px;
+            height: 768px;
+        }
+
+        .box .showPlace{
+            width: 1000px;
+            height: 380px;
+            margin:-0 auto 0;
+            border: 3px solid orange;
+            background-color: gray;
+        }
+
+
+        .box .textPlace{
+        
+            display: block;
+            width: 800px;
+            height: 100px;
+            margin:50px auto 0;
+            border: 1px solid grey;
+            background-color: #fff;
+            position: relative;
+        }
+
+        .box .textPlace2{
+            width: 720px;
+            height: 100px;
+        }
+
+        .box .btnTextPlace{
+            width: 80px;
+            height: 102px;
+            position: absolute;
+            right: 0px;
+            top: -1px;
+            cursor: pointer;
+            border: 1px solid grey;
+            user-select:none;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <div class="box">
+        <div class="showPlace"></div>
+         <!-- 输入框以及提交按钮和表单 -->
+        <form action="#" id="textForm"> 
+            <div class="textPlace">
+                <div class="textPlace2" contenteditable="true"></div>
+                <button class="btnTextPlace">发送</button>
+            </div>
+        </form>
+        
+        
+
+    </div>
+
+    <script>
+        const textForm = document.querySelector('#textForm')
+        const textPlace2 = document.querySelector('.textPlace2')
+        const btnTextPlace = document.querySelector('.btnTextPlace')
+    
+//AJAX请求
+textForm.onsubmit = function (e) {
+            //1.实例化XMLHttpRequest对象，得到一个ajax请求对象
+            const xhr = new XMLHttpRequest();
+            //2.打开连接open方法(参数1:请求方式，参数2：请求地址  参数3：是否异步)
+            xhr.open("get", "/login", true);
+            //3.发送请求 send方法
+            xhr.send();
+            //4.xhr有一个onreadystatechange事件可以接受请求过程中readystate码的改变
+            xhr.onreadystatechange = function () {
+                //当readyStat变成4，并且响应状态码status是200的时候代表请求真正完成
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    //有两个属性接收到响应
+                    //xhr.responseText:接受文本数据 json 字符串等
+                    //xhr.responseXML:接受XML的数据
+                    // console.log(xhr.responseText);
+                    console.log(JSON.parse(xhr.responseText));
+                }
+            }
+            //阻止默认事件
+            // e.preventDefault ? e.preventDefault() : e.returnValue = false;
+            return false;
+        } 
+
+
+
+
+    </script>
+
+</body>
+</html>

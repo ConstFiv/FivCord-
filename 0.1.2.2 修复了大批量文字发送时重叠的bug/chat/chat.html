@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>废物聊天室</title>
+    <!-- 引入icon -->
+    <link rel="stylesheet" href="../icon/iconfont.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="rootLeftArea.css">
+    <link rel="stylesheet" href="rootListLeft.css">
+    <link rel="stylesheet" href="rootContent.css">
+    <link rel="stylesheet" href="./emoticonPart/emoticonPart.css">
+
+    <!-- 引入Jquery -->
+    <script src="./jquery.js"></script>
+    <!-- 引入表情包专用的彩色icon包 -->
+    <script src="./emoticonPart/iconForEmotion/iconfont.js"></script>
+
+</head>
+
+<body>
+
+    <div class="root" id="root">
+        <!-- 左侧边栏######################################################## -->
+        <ul class="rootLeftArea">
+            <li class="logobutton">
+                <div class="leftTopLogo logobuttonInside">
+                    <span class="iconfont icon-chongwutubiao02"></span>
+                </div>
+            </li>
+            <div class="logoUnderline"></div>
+            <li class="logobutton" id="guguGroupFather">
+                <div class="logobuttonInside guguGroup">咕咕群</div>
+            </li>
+            <li class="logobutton">
+                <div class="logobuttonInside">PS4</div>
+            </li>
+            <li class="logobutton">
+                <div class="logobuttonInside">Steam</div>
+            </li>
+            <li class="logobutton">
+                <div class="logobuttonInside">FW</div>
+            </li>
+        </ul>
+
+
+
+
+        <div class="rootMainArea">
+            <!-- 频道列表##################################################################### -->
+            <div class="rootListLeft">
+                <div class="groupTitle">
+                    <span class="groupTitleLeft">咕咕群</span>
+                    <span class="groupTitleRight iconfont icon-caidan"></span>
+                </div>
+                <div class="groupTitleUnderline"></div>
+
+                <div class="groupListOutside">
+                    <ul class="groupList">
+                        <li id="textFirstOne">
+                            <span class="iconfont icon-number-sign-full"></span>
+                            文字频道
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            语音频道
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            CSGO
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            YOYOYO
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+
+                            R6
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+
+                            上课别唠嗑
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            apex1
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            apex2
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            LOL
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            单机
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            其他
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            拉屎的吧
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            赛博朋克2077
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            PS4游戏交流
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            TheForest
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            沙滩之子
+                        </li>
+                        <li>
+                            <span class="iconfont icon-laba"></span>
+                            唠嗑
+                        </li>
+                        <li></li>
+                       
+                        
+                    </ul>
+                </div>
+                <!-- 临时假冒图片 -->
+                <div class="addOne">
+                    <img src="../临时文件/fake.png" alt="">
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="rootContent">
+                <!-- 顶部栏######################################################################-->
+                <div class="contentTop">
+                    <div class="contentTopLeft">
+                        <span class="iconfont icon-number-sign-full"></span>
+                        文字频道
+                    </div>
+
+                    <ul class="contentTopRight">
+                        <li>
+                            <span class="iconfont icon-bangzhu"></span>
+                        </li>
+                        <!-- 搜索框 -->
+                        <span class="contentTopRightInput iconfont icon-fangdajing"></span>
+                        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;搜索文字">
+
+
+
+
+                        <li>
+                            <span class="iconfont icon-qunzu"></span>
+                        </li>
+                        <li>
+                            <span class="iconfont icon-pushpin-fill"></span>
+                        </li>
+                        <li>
+                            <span class="iconfont icon-lingdang"></span>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+
+
+
+
+                <div class="contentMiddle">
+                    <!-- 聊天区######################################################################## -->
+                    <div class="contentMiddleChatPlace">
+                        <!-- 聊天正文区 -->
+                        <div class="ulOuteSide">
+                            <ul id="ChatPlaceUl">
+
+    
+                            </ul>
+                        </div>
+                        
+
+
+
+
+
+                        <div class="contentMiddleChatPlaceInput">
+                            <input type="text" placeholder="给 #文字消息 发消息" value="" id="chatPlaceInput">
+                            <div class="leftBtn">
+                                <span class="iconfont icon-jiahao"></span>
+                            </div>
+                            <div class="rightBtn" id="inputRightBtn">
+                                <span class='iconfont icon-biaoqing'></span>
+                            </div>
+
+                            <!-- 表情包定位板块 -->
+                            <div class="emoticonPlace">
+                                <div class="emoticonPlaceTop">默认表情包(目前版本仅支持默认表情包)</div>
+                                <div class="emoticonPlaceContent">
+                                    <ul class="emoticonPlaceUl"></ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+
+                    <!-- 右侧频道成员列表 -->
+                    <div class="contentMiddleRightFriendsList">
+                        <ul class="listUl" id="listUl">
+                            <span class="friendsOnline">在线好友(16)</span>
+                            <li></li><li></li><li></li><li></li><li></li>
+                            <li></li><li></li><li></li><li></li><li></li>
+                            <li></li><li></li><li></li><li></li><li></li>
+                            <li></li><li></li><li></li>
+                            
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <script src="./setfile.js"></script>
+    <script src="./chat.js"></script>
+    <script src="./FriendsList/FriendsListData.js"></script>
+    <script src="./FriendsList/FriendsList.js"></script>
+
+    <script src="./chatHistoryData/chatData.js" id="chatDataJs"></script>
+    <script src="./severAndClient/client.js"></script>
+    <!-- 表情包板块的JS -->
+    <script src="./emoticonPart/emoticonPart.js"></script>
+    
+</body>
+
+</html>
