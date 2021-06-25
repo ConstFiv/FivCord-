@@ -1,0 +1,132 @@
+/* 本文件用于渲染左侧分组栏 */
+.rootListLeft{
+    position: relative;
+}
+
+
+.rootListLeft .groupTitle{
+    width: 260rem;
+    height: 49rem;
+    margin: 12rem auto 0;
+    border-radius: 5rem;
+    
+
+
+}
+
+.rootListLeft .groupTitle:hover{
+    background-color: rgb(50,53,56);
+    cursor: pointer;
+}
+
+
+.rootListLeft .groupTitle .groupTitleLeft{
+    font-size: 16rem;
+    line-height: 49rem;
+    text-indent: 10rem;
+    display: block;
+    float: left;
+    color: #e6eaf0;
+    font-weight: 900;
+  
+    font-family: PingFang SC,Microsoft YaHei New,微软雅黑,Microsoft Yahei,Microsoft JhengHei,宋体,SimSun,Helvetica Neue,Helvetica,Arial,"sans-serif";
+    
+}
+
+
+.rootListLeft .groupTitle .groupTitleRight{
+    display: block;
+    float: right;
+ 
+    color: #e6eaf0;
+    font-size: 20rem;
+    line-height: 49rem;
+    margin-right: 10rem;
+}
+
+.rootListLeft .groupTitleUnderline{
+    width: 230rem;
+    height: 0;
+    margin: 5rem auto 0;
+    border-bottom: 1rem solid rgb(57,59,64);
+}
+
+
+/* 列表的属性设置 #########################*/
+/* 用于隐藏滚动条 */
+.groupListOutside{
+    height: 480rem;
+    width: 260rem;
+    overflow: hidden;
+}
+
+
+.groupList{
+    list-style: none;
+    font-size: 14rem;
+    height: 500rem; /*故意多写用于隐藏滚动条*/
+    width: 280rem;
+    color: #e6eaf0;
+    background-color: rgb(38,40,44);
+    font-family: PingFang SC,Microsoft YaHei New,微软雅黑,Microsoft Yahei,Microsoft JhengHei,宋体,SimSun,Helvetica Neue,Helvetica,Arial,"sans-serif";
+    overflow: scroll;
+    
+}
+
+
+
+.groupList li{
+    line-height: 36rem;
+    height: 36rem;
+    border-top-right-radius: 20rem;
+    border-bottom-right-radius:20rem;
+    margin-left: 10rem;
+    padding-left: 10rem;
+    background-color: rgb(38,40,44);
+    cursor: pointer;
+
+
+
+}
+
+.groupList li:hover{
+    background-color: rgb(47,50,55);
+    border-radius: unset;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius:20rem;
+   
+}
+
+
+
+.icon-number-sign-full{
+    font-weight: 300;
+    font-size: 14rem;
+}
+
+
+.groupList li span{
+    padding-right: 5rem;
+    color: rgb(95,98,102);
+   
+}
+
+
+
+
+/* 特殊版本专门写li  */
+.groupList #textFirstOne{
+    margin-top: 36rem;
+    background-color: rgb(47,50,55);
+    border-radius: unset;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius:20rem;
+}
+
+.addOne img{
+  display: block;
+  width: 250rem ;
+  height: 90rem ;
+  margin: 0 auto;
+  cursor: pointer;
+}

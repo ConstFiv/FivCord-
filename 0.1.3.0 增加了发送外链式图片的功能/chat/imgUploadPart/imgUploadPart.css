@@ -1,0 +1,71 @@
+.contentMiddleChatPlaceInput .leftBtn .icon-jiahao:hover{
+    color: darkorange ;
+}
+
+
+.contentMiddleChatPlaceInput #imgUploadPlace{    
+    height: 70rem;
+    width: 700rem;
+    background-color: rgb(57,60,65);
+    position: absolute;
+    top: -60rem;
+    left: 28rem;
+    display: none;
+    
+}
+
+.contentMiddleChatPlaceInput #imgUploadPlaceTop{
+    height: 20rem;
+    width: 700rem;
+    background-color: red;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    color: white;
+    text-indent: 10rem;
+    line-height: 20rem;
+}
+
+
+.contentMiddleChatPlaceInput #imgUploadPlace #imgUploadPlaceInput{
+    color: rgb(0,0,0);
+    background-color: #fff;
+    height: 40rem;
+    width: 350rem;
+    text-indent: 20rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+/* 宽高输入框设定 */
+.contentMiddleChatPlaceInput #imgUploadPlace #imgUploadPlaceInput2{
+    color: rgb(0,0,0);
+    background-color: #fff;
+    height: 40rem;
+    width: 100rem;
+    text-indent: 20rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.contentMiddleChatPlaceInput #imgUploadPlace #imgUploadPlaceInput3{
+    color: rgb(0,0,0);
+    background-color: #fff;
+    height: 40rem;
+    width: 100rem;
+    text-indent: 20rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.contentMiddleChatPlaceInput #imgUploadPlace #imgUploadPlaceInput4{
+    color: rgb(0,0,0);
+    font-size:16rem;
+    border-radius:20rem;
+    background-color: darkorange;
+    height: 40rem;
+    width: 70rem;
+    text-indent: 3rem;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    cursor: pointer;
+    border:none;
+    font-weight: 900;
+}
